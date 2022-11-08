@@ -3,11 +3,13 @@ body{
     background-size: cover;
 }
 
+/* navbar */
 .container .text-end a{
     text-decoration: none;
     color: white;
     margin: 5px;
 }
+
 /*Back-to top*/
 #btn-back-to-top {
     position: fixed;
@@ -17,4 +19,9 @@ body{
   }
   #btn-back-to-top:hover {
     background-color: #000;
+  }
+
+  /* Img */
+  .row .col-10 .img-fluid {
+    border-radius: 25px;
   }
