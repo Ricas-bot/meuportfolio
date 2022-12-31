@@ -9,18 +9,22 @@
       <img src="{% static 'image/Me (2).jpg' %}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
     </div>
     <div class="col-lg-6">
-      <h1 class="display-5 fw-bold lh-1 mb-3">Olá! Eu sou o Kelsio Miguel.</h1>
-      <p class="lead">Sou um desenvolvedor WEB formado em Eng. Informática e Comunicações, trabalho com linguagens como o HTML, JavaScript, PHP e Python. Frameworks como o Laravel, Django e o Bootstrap.</p>
+      <h1 class="display-5 fw-bold lh-1 mb-3">Olá! Eu sou o Kelsio Miguel.<script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+        <lord-icon
+            src="https://cdn.lordicon.com/oztibaou.json"
+            trigger="hover"
+            style="width:60px;height:60px">
+        </lord-icon></h1>
+      <p class="lead">Sou desenvolvedor WEB formado em Eng. Informática e Comunicações, trabalho com linguagens como o HTML, JavaScript, PHP e Python. Frameworks como o Laravel, Django e o Bootstrap.</p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <a href="{% url 'projects' %}"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Projectos</button></a>
-
       </div>
     </div>
   </div>
 </div>
 
-<div class="container">
-  <p class="text-center text-muted">Os meus ultimos projectos</p>
+<div class="card-container">
+  <p class="text-center">Os meus ultimos projectos</p>
   <hr>
   <!--Colunas de projectos-->
   <div class="row g-0 irow ">
@@ -29,7 +33,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-dark">Go somewhere</a>
       </div>
     </div>
 
@@ -38,7 +42,7 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-dark">Go somewhere</a>
       </div>
     </div>
 
@@ -47,7 +51,16 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-dark">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="{% static 'image/Me (2).jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-dark">Go somewhere</a>
       </div>
     </div>
 
